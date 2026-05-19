@@ -79,7 +79,7 @@ export default function HeroSection() {
             className="flex items-center gap-4 pt-4 justify-center flex-wrap"
           >
             <div className="text-center">
-              <p className="text-2xl font-light text-[#2C2C2C] dark:text-[#E8EFF5]" style={{ fontFamily: 'Cormorant Garamond, serif' }}>6</p>
+              <p className="text-2xl font-light text-[#2C2C2C] dark:text-[#E8EFF5]" style={{ fontFamily: 'Cormorant Garamond, serif' }}>5</p>
               <p className="text-[10px] text-[#8C8C8C] dark:text-[#5a7a94] uppercase tracking-wider leading-tight">Años de<br/>experiencia</p>
             </div>
             <div className="w-px h-8 bg-[#1B2E3C]/20 dark:bg-[#E8EFF5]/20 flex-shrink-0" />
