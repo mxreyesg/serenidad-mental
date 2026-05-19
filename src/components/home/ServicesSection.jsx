@@ -7,7 +7,7 @@ const services = [
   {
     icon: Heart,
     title: "Terapia Individual",
-    description: "Un espacio confidencial para explorar tus emociones, superar bloqueos y desarrollar herramientas para el bienestar personal.",
+    description: "Un espacio para hacer conciencia de tu experiencia, reconociendo emociones, patrones y formas de relacionarte contigo misma y con los demás.",
     price: "$600",
     priceNote: "por sesión",
     color: "rgba(255,253,231,0.8)",
@@ -17,7 +17,7 @@ const services = [
   {
     icon: Users,
     title: "Terapia de Pareja",
-    description: "Reconstruye la comunicación, la confianza y la conexión emocional en tu relación con apoyo profesional.",
+    description: "Un espacio para hacer conciencia de cómo se vive la relación, reconociendo dinámicas, emociones y formas de encuentro entre ustedes",
     price: "$1,000",
     priceNote: "por sesión",
     color: "rgba(255,253,231,0.8)",
@@ -58,13 +58,10 @@ export default function ServicesSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <span className="text-[#C4368C] text-sm font-medium tracking-widest uppercase">Lo que ofrezco</span>
+          <span className="text-[#C4368C] text-sm font-medium tracking-widest uppercase">Como puedo acompañarte</span>
           <h2 className="mt-3 text-4xl lg:text-5xl font-light text-[#2C2C2C]" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-            Servicios terapéuticos
+            Espacios terapéuticos
           </h2>
-          <p className="mt-4 text-[#5C5C5C] max-w-xl mx-auto leading-relaxed">
-            Cada persona tiene una historia única. Adapto mi enfoque a tus necesidades particulares para acompañarte de la mejor manera.
-          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -100,8 +97,8 @@ export default function ServicesSection() {
                   <p className="text-sm leading-relaxed mb-4 text-[#5C5C5C] dark:text-[#8AAFC8]">{service.description}</p>
                   <div className="flex items-baseline gap-1 mb-6">
                     <span className="text-2xl font-light" style={{ fontFamily: 'Cormorant Garamond, serif', color: service.accent }}>{service.price}</span>
-                    {service.priceNote && <span className="text-xs text-[#8C8C8C] dark:text-[#5a7a94]">{service.priceNote}</span>}
                     {service.price !== "A cotizar" && <span className="text-xs ml-1 text-[#8C8C8C] dark:text-[#5a7a94]">MXN</span>}
+                    {service.priceNote && <span className="text-xs text-[#8C8C8C] dark:text-[#5a7a94]">{service.priceNote}</span>}
                   </div>
                   <div className="flex gap-3 justify-between">
                     <a href="https://confirmafy.com/gloria-hernandez" target="_blank" rel="noreferrer">

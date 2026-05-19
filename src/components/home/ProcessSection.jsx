@@ -4,19 +4,19 @@ const steps = [
   {
     number: "1",
     title: "Llamada de introducción",
-    description: "Comenzamos con una llamada gratuita de 20 minutos para conocernos, entender tus necesidades y resolver tus dudas sin compromiso.",
+    description: "Comenzamos con una sesión breve, sin costo, de 20 minutos para conocernos, hablar sobre lo que te gustaría trabajar en terapia y que puedas sentir si este espacio es para ti.",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80"
   },
   {
     number: "2",
-    title: "Evaluación y planificación",
-    description: "En las primeras sesiones, exploramos tu historia, tus objetivos y diseñamos juntos un plan terapéutico personalizado.",
+    title: "Inicio de proceso",
+    description: "En las primeras sesiones exploraremos tu motivo de consulta, tu historia y aquello que hoy necesita ser mirado, comenzando a ampliar la conciencia sobre tu experiencia emocional y relacional.",
     image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&q=80"
   },
   {
     number: "3",
     title: "Proceso terapéutico",
-    description: "Trabajamos a tu ritmo, con sesiones regulares donde construimos herramientas, procesamos emociones y avanzamos hacia tus metas.",
+    description: "El proceso terapéutico se construye a partir de la experiencia presente. A través de distintos recursos expresivos y vivenciales, se favorece la exploración emocional, el darse cuenta y la toma de conciencia.",
     image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=500&q=80"
   },
   {
@@ -38,9 +38,9 @@ export default function ProcessSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <span className="text-[#C4368C] text-sm font-medium tracking-widest uppercase">El camino</span>
+          <span className="text-[#C4368C] text-sm font-medium tracking-widest uppercase">El proceso</span>
           <h2 className="mt-3 text-4xl lg:text-5xl font-light text-[#2C2C2C]" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-            Cómo funciona el proceso
+            Cómo funciona:
           </h2>
           <p className="mt-4 text-[#5C5C5C] max-w-xl mx-auto leading-relaxed">
             Cada paso está diseñado para que te sientas seguro/a, informado/a y acompañado/a en todo momento.

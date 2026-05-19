@@ -355,7 +355,7 @@ export default function BlogPost() {
           <p className="text-[#5C5C5C] text-sm mb-6">Da el primer paso y agenda una sesión de diagnóstico gratuita.</p>
           <a href="https://confirmafy.com/gloria-hernandez" target="_blank" rel="noreferrer">
             <button className="text-white px-8 py-3 rounded-full font-medium text-sm transition-all hover:opacity-90" style={{ backgroundColor: '#1B2E3C' }}>
-              Agenda sesión gratis
+              Agenda sesión breve de 20 min sin costo
             </button>
           </a>
         </div>

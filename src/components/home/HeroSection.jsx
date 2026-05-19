@@ -45,7 +45,8 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-[#5C5C5C] dark:text-[#8AAFC8] max-w-2xl mx-auto text-base lg:text-lg leading-relaxed mt-6"
           >
-            Acompaño procesos individuales y de pareja desde un enfoque humano y compasivo, promoviendo la toma de conciencia para que puedas reconectar contigo y vivir en congruencia con lo que piensas, sientes y haces.
+            Creo en la terapia como un espacio para volver a ti.<br />
+            Desde la Gestalt, te acompaño a mirar con honestidad lo que vives, reconocer lo que sientes y construir una forma más auténtica y congruente de estar contigo y con los demás, para habitar una vida más consciente.
           </motion.p>
 
           <motion.div
@@ -60,7 +61,7 @@ export default function HeroSection() {
                 style={{ backgroundColor: '#1B2E3C' }}
               >
                 <span className="w-2 h-2 rounded-full bg-green-400 flex-shrink-0"></span>
-                Agenda sesión de 20 minutos gratis
+                Agenda sesión breve de 20 min sin costo
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
             </a>
