@@ -88,9 +88,8 @@ export default function Footer() {
             Hecho con <Heart className="w-3.5 h-3.5 text-[#E060A8]" /> para tu bienestar
             <span className="mx-1">|</span>
             <a href="https://techlab.mx/" target="_blank" rel="noreferrer" className="flex items-center gap-1 hover:text-white/70 transition-colors">
-              Desarrollado por
-              
-            </a>
+              Desarrollado por <img src="/techLab-logo.png" alt="TechLab" className="w-3.5 h-3.5 object-contain" style={{ mixBlendMode: 'screen' }} />
+</a>
           </p>
         </div>
       </div>
