@@ -13,7 +13,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-white/60 text-sm leading-relaxed">
-              Un espacio seguro para sanar, crecer y reconectar contigo mismo/a.
+              Un espacio para reconectar contigo mismo/a, sanar y crecer
             </p>
             <div className="flex gap-3">
               {[Instagram, Facebook, Linkedin].map((Icon, i) => (

@@ -4,17 +4,17 @@ import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
-    name: "María G.",
+    name: "Odalyss",
     role: "Terapia individual",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
-    quote: "Llegar aquí fue la mejor decisión de mi vida. Después de meses sintiéndome perdida, finalmente encontré un espacio donde me sentí completamente escuchada y comprendida. Hoy tengo herramientas reales para manejar mi ansiedad.",
+    quote: "Encontrar este espacio llegó en el mejor momento. Poco a poco me ha ayudado a recuperar mi confianza, mi valor y volver a enfocarme en mí y en quien realmente soy. Lo más bonito es que todo ha sido a mi ritmo, sin presiones, en un lugar donde me siento libre de expresarme sin ser juzgada. Y cada día me siento mejor conmigo misma.",
     stars: 5
   },
   {
-    name: "Carlos y Ana M.",
-    role: "Terapia de pareja",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
-    quote: "Llegamos al borde de la separación. Gracias al proceso terapéutico, no solo salvamos nuestra relación, sino que la fortalecimos. Aprendimos a comunicarnos de una forma que nunca habíamos imaginado.",
+    name: "Rosa Linda Ortíz",
+    role: "Terapia individual",
+    avatar: "/Rosa_linda_Ortiz.jpeg",
+    quote: "Busqué ayuda con urgencia porque no podía con el comportamiento de mi hijo el más pequeño y terminé por descubrir que la que tenía varios temas que trabajar era yo como persona y madre de familia. Estoy muy contenta con el resultado ya que el comportamiento de mi hijo cambió notoriamente, mi matrimonio ha mejorado lo suficiente como para seguir adelante y retomé la maternidad con amor. Sin dudarlo la mejor decisión que he tomado, me ayuda día con día poniendo en práctica lo trabajado en terapia y en la toma de decisiones diarias.",
     stars: 5
   },
   {
@@ -78,14 +78,14 @@ export default function TestimonialsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: idx * 0.1 }}
-              className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-500 flex-shrink-0 snap-start"
+              className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-500 flex-shrink-0 snap-start flex flex-col"
               style={{ width: 'min(85vw, 360px)' }}
             >
               <Quote className="w-8 h-8 text-[#E8A0C8] mb-4" />
-              <p className="text-[#5C5C5C] leading-relaxed text-base mb-6 italic">
+              <p className="text-[#5C5C5C] leading-relaxed text-base italic flex-1">
                 "{t.quote}"
               </p>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 mt-6">
                 <img src={t.avatar} alt={t.name} className="w-12 h-12 rounded-full object-cover" />
                 <div>
                   <p className="font-medium text-[#2C2C2C]">{t.name}</p>
