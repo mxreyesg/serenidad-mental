@@ -46,7 +46,7 @@ export default function HeroSection() {
             className="text-[#5C5C5C] dark:text-[#8AAFC8] max-w-2xl mx-auto text-base lg:text-lg leading-relaxed mt-6"
           >
             Creo en la terapia como un espacio para volver a ti.<br />
-            Desde la Gestalt, te acompaño a mirar con honestidad lo que vives, reconocer lo que sientes y construir una forma más auténtica y congruente de estar contigo y con los demás, para habitar una vida más consciente.
+            Desde la Gestalt, te acompaño a comprender lo que sientes, habitarte con mayor autenticidad y construir una vida más consciente y congruente contigo.
           </motion.p>
 
           <motion.div
