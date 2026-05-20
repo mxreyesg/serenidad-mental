@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Linkedin, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,17 +15,6 @@ export default function Footer() {
             <p className="text-white/60 text-sm leading-relaxed">
               Un espacio para reconectar contigo mismo/a, sanar y crecer
             </p>
-            <div className="flex gap-3">
-              {[Instagram, Facebook, Linkedin].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#C4368C] flex items-center justify-center transition-colors"
-                >
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Services */}

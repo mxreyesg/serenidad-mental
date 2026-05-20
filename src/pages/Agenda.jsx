@@ -19,9 +19,10 @@ export default function Agenda() {
           <div className="flex items-center gap-3 mx-auto">
             <div>
               <img
-                src="/logo.png"
+                src="/Logo.png"
               alt="gh logo"
               className="h-12 w-auto object-contain"
+              style={{ mixBlendMode: 'multiply' }}
               />
             </div>
             <span className="font-light text-[#2C2C2C] text-lg" style={{ fontFamily: 'Cormorant Garamond, serif' }}>

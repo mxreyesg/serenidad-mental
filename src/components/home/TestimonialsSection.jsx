@@ -4,7 +4,7 @@ import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Odalyss",
+    name: "Odalys Gaytan",
     role: "Terapia individual",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
     quote: "Encontrar este espacio llegó en el mejor momento. Poco a poco me ha ayudado a recuperar mi confianza, mi valor y volver a enfocarme en mí y en quien realmente soy. Lo más bonito es que todo ha sido a mi ritmo, sin presiones, en un lugar donde me siento libre de expresarme sin ser juzgada. Y cada día me siento mejor conmigo misma.",

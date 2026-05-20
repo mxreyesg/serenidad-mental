@@ -45,9 +45,10 @@ export default function Navbar({ inBlog = false }) {
           <Link to={createPageUrl("Home")}>
             <div className="flex items-center gap-3">
               <img
-                src="/logo.png"
+                src="/Logo.png"
                 alt="gh logo"
                 className={`h-12 w-auto object-contain transition-all duration-300 ${isDark ? 'invert' : ''}`}
+                style={{ mixBlendMode: isDark ? 'screen' : 'multiply' }}
               />
               <span className="text-[#2C2C2C] font-light text-lg" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
                 Gloria Hernández
