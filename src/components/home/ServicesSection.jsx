@@ -12,7 +12,7 @@ const services = [
     priceNote: "por sesión",
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
-    image: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=600&q=80"
+    image: "/Terapia individual.png"
   },
   {
     icon: Users,
@@ -22,7 +22,7 @@ const services = [
     priceNote: "por sesión",
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
-    image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600&q=80"
+    image: "/Terapia de pareja.png"
   },
   {
     icon: Home,
@@ -32,7 +32,7 @@ const services = [
     priceNote: "por sesión",
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
-    image: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=600&q=80"
+    image: "/Terapia familiar.png"
   },
   {
     icon: Sparkles,
@@ -42,7 +42,7 @@ const services = [
     priceNote: "",
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
-    image: "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=600&q=80"
+    image: "/Terapia Grupal.png"
   }
 ];
 
