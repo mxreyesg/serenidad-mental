@@ -97,7 +97,7 @@ export default function ServicesSection() {
                   </h3>
                   <p className="text-sm leading-relaxed mb-4 text-[#5C5C5C] dark:text-[#8AAFC8]">{service.description}</p>
                   <div className="flex items-baseline gap-1 mb-2">
-                    <span className="text-2xl font-light" style={{ fontFamily: 'Cormorant Garamond, serif', color: service.accent }}>{service.price}</span>
+                    <span className="text-2xl font-light text-[#1B2E3C] dark:text-[#E8EFF5]" style={{ fontFamily: 'Cormorant Garamond, serif' }}>{service.price}</span>
                     {service.price !== "Bajo cotización" && <span className="text-xs ml-1 text-[#8C8C8C] dark:text-[#5a7a94]">MXN</span>}
                     {service.priceNote && <span className="text-xs text-[#8C8C8C] dark:text-[#5a7a94]">{service.priceNote}</span>}
                   </div>
