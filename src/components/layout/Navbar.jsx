@@ -50,7 +50,7 @@ export default function Navbar({ inBlog = false }) {
                 className={`h-12 w-auto object-contain transition-all duration-300 ${isDark ? 'invert' : ''}`}
                 style={{ mixBlendMode: isDark ? 'screen' : 'multiply' }}
               />
-              <span className="text-[#2C2C2C] font-light text-lg" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+              <span className="text-[#2C2C2C] font-light text-xl" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
                 Gloria Hernández
               </span>
             </div>
