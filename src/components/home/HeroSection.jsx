@@ -61,7 +61,7 @@ export default function HeroSection() {
                 style={{ backgroundColor: '#1B2E3C' }}
               >
                 <span className="w-2 h-2 rounded-full bg-green-400 flex-shrink-0"></span>
-                Agenda sesión breve de 20 min sin costo
+                Agenda tu primera sesión gratis (20 min)
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
             </a>

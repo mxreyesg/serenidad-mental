@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "1",
-    title: "Llamada de introducción",
+    title: "Sesión de introducción",
     description: "Comenzamos con una sesión breve, sin costo, de 20 minutos para conocernos, hablar sobre lo que te gustaría trabajar en terapia y que puedas sentir si este espacio es para ti.",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80"
   },
@@ -40,7 +40,7 @@ export default function ProcessSection() {
         >
           <span className="text-[#C4368C] text-sm font-medium tracking-widest uppercase">El proceso</span>
           <h2 className="mt-3 text-4xl lg:text-5xl font-light text-[#2C2C2C]" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-            Cómo funciona:
+            ¿Cómo funciona?
           </h2>
           <p className="mt-4 text-[#5C5C5C] max-w-xl mx-auto leading-relaxed">
             Cada paso está diseñado para que te sientas seguro/a, informado/a y acompañado/a en todo momento.

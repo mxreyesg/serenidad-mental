@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: "¿Qué tipo de sesiones ofrecen?",
-    a: "Ofrezco sesiones individuales, de pareja y familiares, tanto de forma presencial como en línea por videollamada. Cada sesión dura 60 minutos."
+    a: "Ofrezco sesiones individuales, de pareja y familiares, tanto de forma presencial como por videollamada. Cada sesión dura 60 minutos."
   },
   {
     q: "¿Cuántas sesiones necesitaré?",

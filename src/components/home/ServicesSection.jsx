@@ -7,9 +7,10 @@ const services = [
   {
     icon: Heart,
     title: "Terapia Individual",
-    description: "Un espacio para hacer conciencia de tu experiencia, reconociendo emociones, patrones y formas de relacionarte contigo misma y con los demás.",
+    description: "Un espacio para hacer conciencia de tu experiencia, reconociendo emociones, patrones y formas de relacionarte contigo mismo y con los demás.",
     price: "$600",
     priceNote: "por sesión",
+    duration: "60 min",
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
     image: "/Terapia individual.png"
@@ -17,9 +18,10 @@ const services = [
   {
     icon: Users,
     title: "Terapia de Pareja",
-    description: "Un espacio para hacer conciencia de cómo se vive la relación, reconociendo dinámicas, emociones y formas de encuentro entre ustedes",
+    description: "Un espacio para hacer conciencia de cómo se vive la relación, reconociendo dinámicas, emociones y formas de encuentro entre ustedes.",
     price: "$1,000",
     priceNote: "por sesión",
+    duration: "60 min",
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
     image: "/Terapia de pareja.png"
@@ -30,6 +32,7 @@ const services = [
     description: "Abordamos dinámicas familiares complejas para crear un ambiente de comprensión, respeto y amor genuino.",
     price: "$1,500",
     priceNote: "por sesión",
+    duration: "60 min",
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
     image: "/Terapia familiar.png"
@@ -38,8 +41,9 @@ const services = [
     icon: Sparkles,
     title: "Talleres Grupales",
     description: "Experiencias guiadas de crecimiento personal, manejo del estrés, mindfulness y habilidades relacionales.",
-    price: "A cotizar",
+    price: "Bajo cotización",
     priceNote: "",
+    duration: "Variable",
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
     image: "/Terapia Grupal.png"
@@ -58,10 +62,7 @@ export default function ServicesSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <span className="text-[#C4368C] text-sm font-medium tracking-widest uppercase">Como puedo acompañarte</span>
-          <h2 className="mt-3 text-4xl lg:text-5xl font-light text-[#2C2C2C]" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-            Espacios terapéuticos
-          </h2>
+          <span className="text-[#C4368C] text-sm font-medium tracking-widest uppercase">Cómo puedo acompañarte</span>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -95,11 +96,12 @@ export default function ServicesSection() {
                     {service.title}
                   </h3>
                   <p className="text-sm leading-relaxed mb-4 text-[#5C5C5C] dark:text-[#8AAFC8]">{service.description}</p>
-                  <div className="flex items-baseline gap-1 mb-6">
+                  <div className="flex items-baseline gap-1 mb-2">
                     <span className="text-2xl font-light" style={{ fontFamily: 'Cormorant Garamond, serif', color: service.accent }}>{service.price}</span>
-                    {service.price !== "A cotizar" && <span className="text-xs ml-1 text-[#8C8C8C] dark:text-[#5a7a94]">MXN</span>}
+                    {service.price !== "Bajo cotización" && <span className="text-xs ml-1 text-[#8C8C8C] dark:text-[#5a7a94]">MXN</span>}
                     {service.priceNote && <span className="text-xs text-[#8C8C8C] dark:text-[#5a7a94]">{service.priceNote}</span>}
                   </div>
+                  <p className="text-xs text-[#8C8C8C] dark:text-[#5a7a94] mb-6">Duración: {service.duration}</p>
                   <div className="flex gap-3 justify-between">
                     <a href="https://confirmafy.com/gloria-hernandez" target="_blank" rel="noreferrer">
                       <button
