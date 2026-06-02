@@ -8,7 +8,7 @@ const services = [
     icon: Heart,
     title: "Terapia Individual",
     description: "Un espacio para hacer conciencia de tu experiencia, reconociendo emociones, patrones y formas de relacionarte contigo mismo y con los demás.",
-    price: "$600",
+    price: "$700",
     priceNote: "por sesión",
     duration: "60 min",
     color: "rgba(255,253,231,0.8)",
