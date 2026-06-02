@@ -47,6 +47,17 @@ const services = [
     color: "rgba(255,253,231,0.8)",
     accent: "#1B2E3C",
     image: "/Terapia Grupal.png"
+  },
+  {
+    icon: Users,
+    title: "Consultoría de Desarrollo Organizacional",
+    description: "Desde una visión humana y organizacional, acompaño procesos enfocados en fortalecer liderazgo, comunicación, gestión de personas, capacitación, customer experience, performance y dirección estratégica dentro de las organizaciones.",
+    price: "$1,000",
+    priceNote: "por sesión",
+    duration: "60 min",
+    color: "rgba(255,253,231,0.8)",
+    accent: "#1B2E3C",
+    image: "/Terapia individual.png"
   }
 ];
 
