@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
 
 const badges = [
   "5 Años de experiencia",
@@ -65,11 +63,6 @@ export default function AboutSection() {
               Creo en la terapia como un espacio de encuentro genuino, donde el ritmo lo marcas tú y el proceso se construye juntos.
             </p>
 
-            <Link to="/sobre-mi">
-              <button className="flex items-center gap-2 text-sm font-medium text-[#1B2E3C] dark:text-[#E8EFF5] hover:gap-3 transition-all duration-300 mt-2">
-                Conoce más sobre mí <ArrowRight className="w-4 h-4" />
-              </button>
-            </Link>
           </motion.div>
 
         </div>
