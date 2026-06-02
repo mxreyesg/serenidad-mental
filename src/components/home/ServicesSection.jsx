@@ -79,8 +79,11 @@ export default function ServicesSection() {
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, idx) => {
             const Icon = service.icon;
+            const isLast = idx === services.length - 1;
+            const isOdd = services.length % 2 !== 0;
             return (
               <motion.div
+                {...(isLast && isOdd ? { style: { gridColumn: '1 / -1', maxWidth: '50%', margin: '0 auto', width: '100%' } } : {})}
                 key={idx}
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
