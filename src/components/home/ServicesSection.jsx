@@ -83,13 +83,12 @@ export default function ServicesSection() {
             const isOdd = services.length % 2 !== 0;
             return (
               <motion.div
-                {...(isLast && isOdd ? { style: { gridColumn: '1 / -1', maxWidth: '50%', margin: '0 auto', width: '100%' } } : {})}
                 key={idx}
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: idx * 0.15 }}
-                className="group rounded-3xl overflow-hidden border border-[#F0D0E8] hover:shadow-2xl transition-all duration-500"
+                className={`group rounded-3xl overflow-hidden border border-[#F0D0E8] hover:shadow-2xl transition-all duration-500 ${isLast && isOdd ? 'md:col-span-2 md:max-w-[50%] md:mx-auto md:w-full' : ''}`}
               >
                 <div className="relative h-52 overflow-hidden">
                   <img
